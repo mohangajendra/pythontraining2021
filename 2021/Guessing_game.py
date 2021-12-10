@@ -20,4 +20,4 @@ while(inputnum!=a and inputnum!='exit'):
         print("your guessed high")
     else:
         print("Hurray you guessed the number right, it is {}".format(a))
-print("you took {} attempts to guess it right".format(count_num))
+        print("you took {} attempts to guess it right".format(count_num))
