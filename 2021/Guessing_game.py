@@ -15,9 +15,9 @@ while(inputnum!=a and inputnum!='exit'):
     inputnum=int(inputnum)
     count_num+=1
     if inputnum<a:
-        print("your guess is too low")
+        print("your guessed low")
     elif inputnum>a:
-        print("your guess is too high")
+        print("your guessed high")
     else:
         print("Hurray you guessed the number right, it is {}".format(a))
 print("you took {} attempts to guess it right".format(count_num))
